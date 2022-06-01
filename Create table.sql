@@ -38,17 +38,11 @@ CREATE TABLE green_pass (
   ID_Green_Pass INT NOT NULL AUTO_INCREMENT,
   Data_rilascio DATE NOT NULL,
   Paziente CHAR(16) NOT NULL,
+  Struttura int not null,
   FOREIGN KEY(Paziente) REFERENCES paziente(Codice_Fiscale),
+  foreign key (Struttura) references struttura(Codice),
   PRIMARY KEY (ID_Green_Pass)
 );
-
-CREATE TABLE rilascio (
-Struttura int not null,
-Green_Pass int not null,
-foreign key (Struttura) references struttura(Codice),
-foreign key (Green_Pass) references green_pass(ID_Green_Pass),
-PRIMARY KEY (Struttura, Green_Pass)
-); 
 
 CREATE TABLE medico (
 TesseraOM Varchar(20) not null primary key,
