@@ -65,27 +65,26 @@ values (1,"Cominarty", "Pfizer", "a1353", "Multidose"),
     (19,"Cominarty", "Pfizer","a1353", "Multidose"),
     (20,"Vaxzevria", "Astrazeneca","AZ45548", "Multidose");
 
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (1, '2021-08-31',"YWV45KWU0TIKCBNR",3);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (2, '2022-03-14',"VTX45LRL6EYLBQNB",8);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (3, '2022-05-02',"FIU38YSM6EFMBWJQ",6);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (4, '2021-04-10',"XGY37QGJ1EZOCUSY",9);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (5, '2022-02-23',"TQX35VFS5MUKEFDG",7);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (6, '2021-03-23',"CYY32EMU8GISEXGA",9);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (7, '2021-07-12',"FHT91CYX3NOGAWRF",5);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (8, '2021-11-19',"SCF72UQO6SEEDLNU",4);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (9, '2021-10-13',"WTV93AOX5YDWZOHK",10);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (10, '2022-01-23',"IBU64ULP9QQXCQAP",7);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (11, '2021-11-08',"KBC42FMW1DCXTJMC",3);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (12, '2021-05-02',"LNT54WQF6EINRIOU",6);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (13, '2021-10-25',"PXS97WJY7NEQMWBG",9);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (14, '2021-12-08',"IIY86EJH5JFHZDNK",5);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (15, '2022-01-31',"BAZ78BFT3SOYFSOJ",8);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (16, '2022-02-19',"UOD84VMD3QNPXKMG",7);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (17, '2021-03-18',"HWB73LER4JQSNMFN",10);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (18, '2021-09-22',"JWT32CJE0LAVDIWE",4);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (19, '2021-07-15',"JGF79IJU1XUNPNSN",6);
-insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente,Struttura) values (20, '2022-01-25',"YFX29GVO5FNCTUID",10);
-
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (1, '2021-08-31',"YWV45KWU0TIKCBNR");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (2, '2022-03-14',"VTX45LRL6EYLBQNB");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (3, '2022-05-02',"FIU38YSM6EFMBWJQ");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (4, '2021-04-10',"XGY37QGJ1EZOCUSY");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (5, '2022-02-23',"TQX35VFS5MUKEFDG");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (6, '2021-03-23',"CYY32EMU8GISEXGA");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (7, '2021-07-12',"FHT91CYX3NOGAWRF");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (8, '2021-11-19',"SCF72UQO6SEEDLNU");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (9, '2021-10-13',"WTV93AOX5YDWZOHK");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (10, '2022-01-23',"IBU64ULP9QQXCQAP");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (11, '2021-11-08',"KBC42FMW1DCXTJMC");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (12, '2021-05-02',"LNT54WQF6EINRIOU");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (13, '2021-10-25',"PXS97WJY7NEQMWBG");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (14, '2021-12-08',"IIY86EJH5JFHZDNK");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (15, '2022-01-31',"BAZ78BFT3SOYFSOJ");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (16, '2022-02-19',"UOD84VMD3QNPXKMG");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (17, '2021-03-18',"HWB73LER4JQSNMFN");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (18, '2021-09-22',"JWT32CJE0LAVDIWE");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (19, '2021-07-15',"JGF79IJU1XUNPNSN");
+insert into green_pass (ID_Green_Pass, Data_rilascio,Paziente) values (20, '2022-01-25',"YFX29GVO5FNCTUID");
 
 INSERT INTO medico (TesseraOM,Nome,Cognome,Data_di_nascita,Struttura)
 VALUES
@@ -177,6 +176,29 @@ VALUES ("KBC42FMW1DCXTJMC",3344570568),
 		("CSC83REU4JK",18),
 		("GTT77EGT5LM",19),
 		("QFU54BMP8GH",20);
+        
+insert into rilascio(Struttura, Green_Pass)
+  VALUES (3,1),
+		(8,2),
+ 		(6,3),
+		(9,4),
+		(7,5),
+		(9,6),
+		(5,7),
+		(4,8),
+		(10,9),
+		(7,10),
+		(3,11),
+		(6,12),
+		(9,13),
+		(5,14),
+		(8,15),
+		(7,16),
+		(10,17),
+		(4,18),       
+		(6,19),
+		(10,20);
+
 
 INSERT INTO prenotazione(Paziente, Struttura, Vaccino, Data, ora)
 VALUES  ("KBC42FMW1DCXTJMC",3,5,"2021-09-22","3:12:00"),
